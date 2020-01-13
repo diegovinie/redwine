@@ -5,28 +5,31 @@ import "./Footer.css";
 
 class Footer extends Component {
   render() {
-    const { config } = this.props;
-    const url = config.siteRss;
-    const { copyright } = config;
-    if (!copyright) {
-      return null;
-    }
+    // const { config } = this.props;
+    // const url = config.siteRss;
+    // const { copyright } = config;
+    // if (!copyright) {
+    //   return null;
+    // }
     return (
-      <footer className="footer">
-        <UserLinks config={config} labeled />
-        <div className="notice-container">
-          <h4>{copyright}</h4>
-
-          <Link to={url}>
-            <button>Subscribe</button>
-          </Link>
-          <h4>
-            Based on{" "}
-            <a href="https://github.com/Vagr9K/gatsby-advanced-starter">
-              Gatsby Advanced Starter
-            </a>
-            .
-          </h4>
+      <footer id="mu-footer">
+        <div className="container">
+          <div className="row">
+            <div className="col-md-12">
+            <div className="mu-footer-area">
+               <div className="mu-footer-social">
+                <a href="#"><span className="fa fa-facebook"></span></a>
+                <a href="#"><span className="fa fa-twitter"></span></a>
+                <a href="#"><span className="fa fa-google-plus"></span></a>
+                <a href="#"><span className="fa fa-linkedin"></span></a>
+                <a href="#"><span className="fa fa-youtube"></span></a>
+              </div>
+              <div className="mu-footer-copyright">
+                <p>&copy; Copyright <a rel="nofollow" href="http://markups.io">markups.io</a>. All right reserved.</p>
+              </div>
+            </div>
+          </div>
+          </div>
         </div>
       </footer>
     );
