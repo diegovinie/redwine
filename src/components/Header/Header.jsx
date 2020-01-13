@@ -15,7 +15,7 @@ const Header = props => (
             <span className="icon-bar"></span>
           </button>
 
-          <a className="navbar-brand" href="index.html"><img src="assets/img/logo.png" alt="Logo img" /></a>
+          <a className="navbar-brand" href="index.html"><img src="/assets/img/logo.png" alt="Logo img" /></a>
 
 
         </div>

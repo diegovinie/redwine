@@ -1,4 +1,9 @@
 import React from 'react';
+import config from "../../../data/SiteConfig";
+
+
+const {siteTitle, siteDescription} = config;
+const imagePath = '/images/home-banner.png';
 
 const Banner = props => (
   <section id="mu-slider">
@@ -7,12 +12,15 @@ const Banner = props => (
       <div className="mu-top-slider">
 
         <div className="mu-top-slider-single">
-          <img src="assets/img/slider/1.jpeg" alt="img"/>
+          <img src={ imagePath } alt={ siteTitle }/>
           <div className="mu-top-slider-content">
-            <span className="mu-slider-small-title">Welcome</span>
-            <h2 className="mu-slider-title">To The OsteriaX</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque voluptatem accusamus non quidem, deleniti optio.</p>
-            <a href="#mu-reservation" className="mu-readmore-btn mu-reservation-btn">BOOK A TABLE</a>
+            <span className="mu-slider-small-title">Bienvenid@s</span>
+            <h2 className="mu-slider-title">a { siteTitle }</h2>
+            <p>{ siteDescription }</p>
+            <a href="#mu-reservation"
+              className="mu-readmore-btn mu-reservation-btn">
+              MIRA NUESTROS PLATOS
+            </a>
           </div>
         </div>
       </div>

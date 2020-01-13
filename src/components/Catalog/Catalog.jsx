@@ -33,7 +33,7 @@ const Catalog = props => (
                               <div className="media">
                                 <div className="media-left">
                                   <a href="#">
-                                    <img className="media-object" src="assets/img/menu/item-1.jpg" alt="img"/>
+                                    <img className="media-object" src="/assets/img/menu/item-1.jpg" alt="img"/>
                                   </a>
                                 </div>
                                 <div className="media-body">
@@ -47,7 +47,7 @@ const Catalog = props => (
                               <div className="media">
                                 <div className="media-left">
                                   <a href="#">
-                                    <img className="media-object" src="assets/img/menu/item-2.jpg" alt="img"/>
+                                    <img className="media-object" src="/assets/img/menu/item-2.jpg" alt="img"/>
                                   </a>
                                 </div>
                                 <div className="media-body">
@@ -61,7 +61,7 @@ const Catalog = props => (
                               <div className="media">
                                 <div className="media-left">
                                   <a href="#">
-                                    <img className="media-object" src="assets/img/menu/item-1.jpg" alt="img"/>
+                                    <img className="media-object" src="/assets/img/menu/item-1.jpg" alt="img"/>
                                   </a>
                                 </div>
                                 <div className="media-body">
@@ -82,7 +82,7 @@ const Catalog = props => (
                               <div className="media">
                                 <div className="media-left">
                                   <a href="#">
-                                    <img className="media-object" src="assets/img/menu/item-1.jpg" alt="img"/>
+                                    <img className="media-object" src="/assets/img/menu/item-1.jpg" alt="img"/>
                                   </a>
                                 </div>
                                 <div className="media-body">
@@ -96,7 +96,7 @@ const Catalog = props => (
                               <div className="media">
                                 <div className="media-left">
                                   <a href="#">
-                                    <img className="media-object" src="assets/img/menu/item-2.jpg" alt="img"/>
+                                    <img className="media-object" src="/assets/img/menu/item-2.jpg" alt="img"/>
                                   </a>
                                 </div>
                                 <div className="media-body">
@@ -110,7 +110,7 @@ const Catalog = props => (
                               <div className="media">
                                 <div className="media-left">
                                   <a href="#">
-                                    <img className="media-object" src="assets/img/menu/item-1.jpg" alt="img"/>
+                                    <img className="media-object" src="/assets/img/menu/item-1.jpg" alt="img"/>
                                   </a>
                                 </div>
                                 <div className="media-body">
@@ -139,7 +139,7 @@ const Catalog = props => (
                               <div className="media">
                                 <div className="media-left">
                                   <a href="#">
-                                    <img className="media-object" src="assets/img/menu/item-3.jpg" alt="img"/>
+                                    <img className="media-object" src="/assets/img/menu/item-3.jpg" alt="img"/>
                                   </a>
                                 </div>
                                 <div className="media-body">
@@ -153,7 +153,7 @@ const Catalog = props => (
                               <div className="media">
                                 <div className="media-left">
                                   <a href="#">
-                                    <img className="media-object" src="assets/img/menu/item-4.jpg" alt="img"/>
+                                    <img className="media-object" src="/assets/img/menu/item-4.jpg" alt="img"/>
                                   </a>
                                 </div>
                                 <div className="media-body">
@@ -167,7 +167,7 @@ const Catalog = props => (
                               <div className="media">
                                 <div className="media-left">
                                   <a href="#">
-                                    <img className="media-object" src="assets/img/menu/item-3.jpg" alt="img"/>
+                                    <img className="media-object" src="/assets/img/menu/item-3.jpg" alt="img"/>
                                   </a>
                                 </div>
                                 <div className="media-body">
@@ -188,7 +188,7 @@ const Catalog = props => (
                               <div className="media">
                                 <div className="media-left">
                                   <a href="#">
-                                    <img className="media-object" src="assets/img/menu/item-4.jpg" alt="img"/>
+                                    <img className="media-object" src="/assets/img/menu/item-4.jpg" alt="img"/>
                                   </a>
                                 </div>
                                 <div className="media-body">
@@ -202,7 +202,7 @@ const Catalog = props => (
                               <div className="media">
                                 <div className="media-left">
                                   <a href="#">
-                                    <img className="media-object" src="assets/img/menu/item-3.jpg" alt="img"/>
+                                    <img className="media-object" src="/assets/img/menu/item-3.jpg" alt="img"/>
                                   </a>
                                 </div>
                                 <div className="media-body">
@@ -216,7 +216,7 @@ const Catalog = props => (
                               <div className="media">
                                 <div className="media-left">
                                   <a href="#">
-                                    <img className="media-object" src="assets/img/menu/item-4.jpg" alt="img"/>
+                                    <img className="media-object" src="/assets/img/menu/item-4.jpg" alt="img"/>
                                   </a>
                                 </div>
                                 <div className="media-body">
@@ -245,7 +245,7 @@ const Catalog = props => (
                               <div className="media">
                                 <div className="media-left">
                                   <a href="#">
-                                    <img className="media-object" src="assets/img/menu/item-5.jpg" alt="img"/>
+                                    <img className="media-object" src="/assets/img/menu/item-5.jpg" alt="img"/>
                                   </a>
                                 </div>
                                 <div className="media-body">
@@ -259,7 +259,7 @@ const Catalog = props => (
                               <div className="media">
                                 <div className="media-left">
                                   <a href="#">
-                                    <img className="media-object" src="assets/img/menu/item-6.jpg" alt="img"/>
+                                    <img className="media-object" src="/assets/img/menu/item-6.jpg" alt="img"/>
                                   </a>
                                 </div>
                                 <div className="media-body">
@@ -273,7 +273,7 @@ const Catalog = props => (
                               <div className="media">
                                 <div className="media-left">
                                   <a href="#">
-                                    <img className="media-object" src="assets/img/menu/item-5.jpg" alt="img"/>
+                                    <img className="media-object" src="/assets/img/menu/item-5.jpg" alt="img"/>
                                   </a>
                                 </div>
                                 <div className="media-body">
@@ -294,7 +294,7 @@ const Catalog = props => (
                               <div className="media">
                                 <div className="media-left">
                                   <a href="#">
-                                    <img className="media-object" src="assets/img/menu/item-5.jpg" alt="img"/>
+                                    <img className="media-object" src="/assets/img/menu/item-5.jpg" alt="img"/>
                                   </a>
                                 </div>
                                 <div className="media-body">
@@ -308,7 +308,7 @@ const Catalog = props => (
                               <div className="media">
                                 <div className="media-left">
                                   <a href="#">
-                                    <img className="media-object" src="assets/img/menu/item-6.jpg" alt="img"/>
+                                    <img className="media-object" src="/assets/img/menu/item-6.jpg" alt="img"/>
                                   </a>
                                 </div>
                                 <div className="media-body">
@@ -322,7 +322,7 @@ const Catalog = props => (
                               <div className="media">
                                 <div className="media-left">
                                   <a href="#">
-                                    <img className="media-object" src="assets/img/menu/item-5.jpg" alt="img"/>
+                                    <img className="media-object" src="/assets/img/menu/item-5.jpg" alt="img"/>
                                   </a>
                                 </div>
                                 <div className="media-body">
@@ -351,7 +351,7 @@ const Catalog = props => (
                               <div className="media">
                                 <div className="media-left">
                                   <a href="#">
-                                    <img className="media-object" src="assets/img/menu/item-7.jpg" alt="img"/>
+                                    <img className="media-object" src="/assets/img/menu/item-7.jpg" alt="img"/>
                                   </a>
                                 </div>
                                 <div className="media-body">
@@ -365,7 +365,7 @@ const Catalog = props => (
                               <div className="media">
                                 <div className="media-left">
                                   <a href="#">
-                                    <img className="media-object" src="assets/img/menu/item-8.jpg" alt="img"/>
+                                    <img className="media-object" src="/assets/img/menu/item-8.jpg" alt="img"/>
                                   </a>
                                 </div>
                                 <div className="media-body">
@@ -379,7 +379,7 @@ const Catalog = props => (
                               <div className="media">
                                 <div className="media-left">
                                   <a href="#">
-                                    <img className="media-object" src="assets/img/menu/item-7.jpg" alt="img"/>
+                                    <img className="media-object" src="/assets/img/menu/item-7.jpg" alt="img"/>
                                   </a>
                                 </div>
                                 <div className="media-body">
@@ -400,7 +400,7 @@ const Catalog = props => (
                               <div className="media">
                                 <div className="media-left">
                                   <a href="#">
-                                    <img className="media-object" src="assets/img/menu/item-8.jpg" alt="img"/>
+                                    <img className="media-object" src="/assets/img/menu/item-8.jpg" alt="img"/>
                                   </a>
                                 </div>
                                 <div className="media-body">
@@ -414,7 +414,7 @@ const Catalog = props => (
                               <div className="media">
                                 <div className="media-left">
                                   <a href="#">
-                                    <img className="media-object" src="assets/img/menu/item-7.jpg" alt="img"/>
+                                    <img className="media-object" src="/assets/img/menu/item-7.jpg" alt="img"/>
                                   </a>
                                 </div>
                                 <div className="media-body">
@@ -428,7 +428,7 @@ const Catalog = props => (
                               <div className="media">
                                 <div className="media-left">
                                   <a href="#">
-                                    <img className="media-object" src="assets/img/menu/item-8.jpg" alt="img"/>
+                                    <img className="media-object" src="/assets/img/menu/item-8.jpg" alt="img"/>
                                   </a>
                                 </div>
                                 <div className="media-body">
@@ -457,7 +457,7 @@ const Catalog = props => (
                               <div className="media">
                                 <div className="media-left">
                                   <a href="#">
-                                    <img className="media-object" src="assets/img/menu/item-9.jpg" alt="img"/>
+                                    <img className="media-object" src="/assets/img/menu/item-9.jpg" alt="img"/>
                                   </a>
                                 </div>
                                 <div className="media-body">
@@ -471,7 +471,7 @@ const Catalog = props => (
                               <div className="media">
                                 <div className="media-left">
                                   <a href="#">
-                                    <img className="media-object" src="assets/img/menu/item-10.jpg" alt="img"/>
+                                    <img className="media-object" src="/assets/img/menu/item-10.jpg" alt="img"/>
                                   </a>
                                 </div>
                                 <div className="media-body">
@@ -485,7 +485,7 @@ const Catalog = props => (
                               <div className="media">
                                 <div className="media-left">
                                   <a href="#">
-                                    <img className="media-object" src="assets/img/menu/item-9.jpg" alt="img"/>
+                                    <img className="media-object" src="/assets/img/menu/item-9.jpg" alt="img"/>
                                   </a>
                                 </div>
                                 <div className="media-body">
@@ -506,7 +506,7 @@ const Catalog = props => (
                               <div className="media">
                                 <div className="media-left">
                                   <a href="#">
-                                    <img className="media-object" src="assets/img/menu/item-9.jpg" alt="img"/>
+                                    <img className="media-object" src="/assets/img/menu/item-9.jpg" alt="img"/>
                                   </a>
                                 </div>
                                 <div className="media-body">
@@ -520,7 +520,7 @@ const Catalog = props => (
                               <div className="media">
                                 <div className="media-left">
                                   <a href="#">
-                                    <img className="media-object" src="assets/img/menu/item-10.jpg" alt="img"/>
+                                    <img className="media-object" src="/assets/img/menu/item-10.jpg" alt="img"/>
                                   </a>
                                 </div>
                                 <div className="media-body">
@@ -534,7 +534,7 @@ const Catalog = props => (
                               <div className="media">
                                 <div className="media-left">
                                   <a href="#">
-                                    <img className="media-object" src="assets/img/menu/item-9.jpg" alt="img"/>
+                                    <img className="media-object" src="/assets/img/menu/item-9.jpg" alt="img"/>
                                   </a>
                                 </div>
                                 <div className="media-body">

@@ -24,14 +24,14 @@ export default function HTML(props) {
           dangerouslySetInnerHTML={{ __html: props.body }}
         />
         {props.postBodyComponents}
-        <script src="assets/js/jquery.min.js"></script>
-        <script src="assets/js/bootstrap.js"></script>
-        <script type="text/javascript" src="assets/js/slick.js"></script>
-        <script type="text/javascript" src="assets/js/jquery.magnific-popup.min.js"></script>
-        <script type="text/javascript" src="assets/js/bootstrap-datepicker.js"></script>
-        <script type="text/javascript" src="assets/js/app.js"></script>
+        <script src="/assets/js/jquery.min.js"></script>
+        <script src="/assets/js/bootstrap.js"></script>
+        <script type="text/javascript" src="/assets/js/slick.js"></script>
+        <script type="text/javascript" src="/assets/js/jquery.magnific-popup.min.js"></script>
+        <script type="text/javascript" src="/assets/js/bootstrap-datepicker.js"></script>
+        <script type="text/javascript" src="/assets/js/app.js"></script>
 
-        <script src="assets/js/custom.js"></script>
+        <script src="/assets/js/custom.js"></script>
 
       </body>
     </html>
