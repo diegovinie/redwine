@@ -8,8 +8,8 @@ const Catalog = props => (
           <div className="mu-restaurant-menu-area">
 
             <div className="mu-title">
-              <span className="mu-subtitle">Discover</span>
-              <h2>OUR MENU</h2>
+              <span className="mu-subtitle">Descubre</span>
+              <h2>NUESTRO MENÚ</h2>
             </div>
 
             <div className="mu-restaurant-menu-content">

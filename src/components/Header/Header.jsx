@@ -1,6 +1,9 @@
 import React from 'react';
+import './Header.scss';
 import Helmet from "react-helmet";
 import config from "../../../data/SiteConfig";
+
+const {siteTitle, siteLogo} = config;
 
 const Header = props => (
   <header id="mu-header">
@@ -15,19 +18,21 @@ const Header = props => (
             <span className="icon-bar"></span>
           </button>
 
-          <a className="navbar-brand" href="index.html"><img src="/assets/img/logo.png" alt="Logo img" /></a>
+          <a className="navbar-brand" href="index.html">
+            <img
+              className="navbar-brand_image"
+              src={ siteLogo }
+              alt={ siteTitle } />
+          </a>
 
 
         </div>
         <div id="navbar" className="navbar-collapse collapse">
           <ul id="top-menu" className="nav navbar-nav navbar-right mu-main-nav">
-            <li><a href="index.html">HOME</a></li>
-            <li><a href="#mu-about-us">ABOUT US</a></li>
+            <li><a href="index.html">INICIO</a></li>
+            <li><a href="#mu-about-us">SOBRE MI</a></li>
             <li><a href="#mu-restaurant-menu">MENU</a></li>
-            <li><a href="#mu-reservation">RESERVATION</a></li>
-            <li><a href="#mu-gallery">GALLERY</a></li>
-            <li><a href="#mu-chef">OUR CHEFS</a></li>
-            <li><a href="#mu-contact">CONTACT</a></li>
+            <li><a href="#mu-contact">CONTACTO</a></li>
           </ul>
         </div>
       </div>

@@ -14,10 +14,10 @@ const Banner = props => (
         <div className="mu-top-slider-single">
           <img src={ imagePath } alt={ siteTitle }/>
           <div className="mu-top-slider-content">
-            <span className="mu-slider-small-title">Bienvenid@s</span>
-            <h2 className="mu-slider-title">a { siteTitle }</h2>
+            <span className="mu-slider-small-title">Bienvenid@s a</span>
+            <h2 className="mu-slider-title">{ siteTitle }</h2>
             <p>{ siteDescription }</p>
-            <a href="#mu-reservation"
+            <a href="#mu-restaurant-menu"
               className="mu-readmore-btn mu-reservation-btn">
               MIRA NUESTROS PLATOS
             </a>
