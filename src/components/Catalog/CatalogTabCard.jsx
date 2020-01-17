@@ -1,8 +1,9 @@
 import React from 'react';
+import {toCurrency} from '../../helpers';
 
 const CatalogTabCard = props => {
   const {name, price, description, image} = props;
-  
+
   return (
     <li>
       <div className="media">
@@ -15,7 +16,7 @@ const CatalogTabCard = props => {
           <h4 className="media-heading">
             <a href="#">{ name || 'English Breakfast' }</a>
           </h4>
-          <span className="mu-menu-price">{ price || '$15.85' }</span>
+          <span className="mu-menu-price">{ toCurrency(price) || 'Consultar' }</span>
           <p>{ description || 'Description of the product.' }</p>
         </div>
       </div>

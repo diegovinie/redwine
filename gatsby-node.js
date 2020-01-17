@@ -25,6 +25,18 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
     }
 
     if (Object.prototype.hasOwnProperty.call(node, "frontmatter")) {
+      if (Object.prototype.hasOwnProperty.call(node, "name")) {
+        createNodeField({ node, name: "name", value: node.frontmatter.name });
+      }
+      if (Object.prototype.hasOwnProperty.call(node, "type")) {
+        createNodeField({ node, name: "type", value: node.frontmatter.type });
+      }
+      if (Object.prototype.hasOwnProperty.call(node, "price")) {
+        createNodeField({ node, name: "price", value: node.frontmatter.price });
+      }
+      if (Object.prototype.hasOwnProperty.call(node, "altName")) {
+        createNodeField({ node, name: "altName", value: node.frontmatter.altName });
+      }
       if (Object.prototype.hasOwnProperty.call(node.frontmatter, "slug"))
         slug = `/${_.kebabCase(node.frontmatter.slug)}`;
       if (Object.prototype.hasOwnProperty.call(node.frontmatter, "date")) {

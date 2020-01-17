@@ -13,38 +13,28 @@ const capitalize = word => word[0].toUpperCase() + word.slice(1)
 const groupBy = items => prop =>
   Array.isArray(items) ? items.reduce(grouper(prop), {}) : {}
 
-const Catalog = props => {  
-  const products = [
-    {
-      name: 'Desayuno inglés',
-      price: '$20.00',
-      category: 'breakfast'
-    },
-    {
-      name: 'Desayuno Chino',
-      category: 'meal'
-    }    
-  ];
-  
+const Catalog = props => {
+  const { products } = props
+
   const sections = groupBy(products)('category')
-  
+
   const tabs = Object.keys(sections)
-    .map((category, index) => 
+    .map((category, index) =>
       <li key={category + index} className={{'active': index === 0}}>
         <a href={`#${category}`} data-toggle="tab">
           { capitalize(category) }
         </a>
       </li>
     );
-    
-  const createSectionView = ([category, details], index) => 
-    <CatalogTab 
+
+  const createSectionView = ([category, details], index) =>
+    <CatalogTab
       key={'section-' + category}
       id={category}
       active={index === 0}
       products={details}
     />
-  
+
   const sectionViews = Object.entries(sections)
     .map(createSectionView)
 
