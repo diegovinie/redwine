@@ -20,7 +20,7 @@ const Catalog = props => {
 
   const tabs = Object.keys(sections)
     .map((category, index) =>
-      <li key={category + index} className={{'active': index === 0}}>
+      <li key={category + index} className={index === 0 ? 'active' : ''}>
         <a href={`#${category}`} data-toggle="tab">
           { capitalize(category) }
         </a>
